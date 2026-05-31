@@ -34,7 +34,7 @@ function App() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://localhost:5000/chat",
+        "https://hima-voice-bot.onrender.com/chat",
         {
           message: msg,
         }
